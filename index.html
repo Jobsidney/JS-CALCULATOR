@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="calcBox">
+
+        <form name="calcForm">
+            User Name:<input type="text" name="user" size="5" />
+            <br>
+            <br>Enter password:<input type="text" name="pass" size="5" />
+            <hr>
+            <br><br> Enter first number:<input type="text" name="num1" size="5" />
+            <br>
+            <br>Enter second number:<input type="text" name="num2" size="5" />
+            <br><br>
+
+
+
+            <input type="radio" name="operator" value="+"> ADD <br>
+            <input type="radio" name="operator" value="-"> SUBTRACT <br>
+            <input type="radio" name="operator" value="/"> DIVIDE <br>
+            <input type="radio" name="operator" value="*"> MULTIPLY <br>
+            <br><br>
+            <!-- <input type="text" name="resultsF" value=""><br> -->
+
+
+
+            <input type="button" value="submit" onclick="doCalculator(document.calcForm.operator)" />
+
+            <br>
+            <br>
+
+            <div id="results">
+
+            </div>
+
+        </form>
+
+    </div><br>
+
+
+    </form>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

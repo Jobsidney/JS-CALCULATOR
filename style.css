@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(calc.jpg);
+    background-size: cover;
+}
+
+.logBox {
+    width: 300px;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 2%;
+    box-shadow: inset 5% 5px 5% rgba(0, 0, 0, 0.2);
+}
+
+.calcBox {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 2%;
+    box-shadow: inset 5% 5px 5% rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+}
