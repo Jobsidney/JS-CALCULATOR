@@ -1,6 +1,6 @@
 function doCalculator(operator) {
     var n = document.calcForm.operator.length;
-
+    //flag variable;
     var flag = false;
     var i;
     for (i = 0; i < n; i++) {
